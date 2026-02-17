@@ -17,3 +17,11 @@ class Config:
     
     # CORS
     CORS_ORIGINS = ['http://localhost:5173', 'http://localhost:3000']
+    
+    # Logging configuration
+    LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
+    LOG_FILE = os.environ.get('LOG_FILE', 'logs/ruleguard.log')
+    
+    # Metrics configuration
+    METRICS_ENABLED = os.environ.get('METRICS_ENABLED', 'true').lower() == 'true'
+

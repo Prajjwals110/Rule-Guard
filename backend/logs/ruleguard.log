@@ -1,0 +1,26 @@
+[2026-02-17 21:14:24] [INFO] [N/A] [app] Logging initialized - Level: INFO, File: logs/ruleguard.log
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Starting RuleGuard application
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] CORS enabled for origins: ['http://localhost:5173', 'http://localhost:3000']
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Database initialized
+[2026-02-17 21:14:24] [INFO] [N/A] [middleware.request_id] Request ID middleware initialized
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Metrics collection enabled
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Blueprints registered
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Database already contains rules, skipping seed data
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Starting Flask development server
+[2026-02-17 21:14:24] [INFO] [N/A] [werkzeug] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-02-17 21:14:24] [INFO] [N/A] [werkzeug] [33mPress CTRL+C to quit[0m
+[2026-02-17 21:14:24] [INFO] [N/A] [werkzeug]  * Restarting with watchdog (fsevents)
+[2026-02-17 21:14:24] [INFO] [N/A] [app] Logging initialized - Level: INFO, File: logs/ruleguard.log
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Starting RuleGuard application
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] CORS enabled for origins: ['http://localhost:5173', 'http://localhost:3000']
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Database initialized
+[2026-02-17 21:14:24] [INFO] [N/A] [middleware.request_id] Request ID middleware initialized
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Metrics collection enabled
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Blueprints registered
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Database already contains rules, skipping seed data
+[2026-02-17 21:14:24] [INFO] [N/A] [__main__] Starting Flask development server
+[2026-02-17 21:14:24] [WARNING] [N/A] [werkzeug]  * Debugger is active!
+[2026-02-17 21:14:24] [INFO] [N/A] [werkzeug]  * Debugger PIN: 252-183-836
+[2026-02-17 23:49:20] [INFO] [N/A] [werkzeug]  * Detected change in '/Users/prajjwalsingh/Desktop/RuleGuard/backend/api/request_routes.py', reloading
+[2026-02-17 23:49:21] [INFO] [N/A] [werkzeug]  * Restarting with watchdog (fsevents)
