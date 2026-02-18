@@ -328,3 +328,5 @@ This is a technical assessment project.
 ## Author
 
 Built as a demonstration of clean architecture and test-driven development practices.
+
+***********
