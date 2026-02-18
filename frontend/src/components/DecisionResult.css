@@ -1,0 +1,53 @@
+.decision-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.decision-approved {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.decision-rejected {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.decision-review {
+  background-color: #fff3cd;
+  border-color: #ffc107;
+  color: #856404;
+}
+
+.decision-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.decision-explanation {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.6;
+}
+
+.decision-meta {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
